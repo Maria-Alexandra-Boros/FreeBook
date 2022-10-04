@@ -12,7 +12,6 @@ namespace FreeBook
     {
         private static string _connectionString = SqlDataAccess.GetConnectionStrings();
         private static string _cartiString = SqlDataAccess.GetCartiPathStrings();
-
         public static void Initialisation()
         {
             ClearDatabase();
